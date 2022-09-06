@@ -1,0 +1,12 @@
+{
+    "name": "futurityfirstsaz",
+    "version": "1.0.0",
+    "description": "The Futurity First South Arizona website",
+    "author": {
+        "email": "lucasxavier@email.arizona.edu",
+        "name": "Luke Broadfoot"
+    },
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}
