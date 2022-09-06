@@ -1,5 +1,5 @@
 build:
-	docker build . -t lukasxavier/ffsaz
+	docker compose build
 
 run:
-	docker run -dp 80:80 lukasxavier/ffsaz
+	docker compose up
