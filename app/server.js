@@ -2,8 +2,6 @@ const express = require('express');
 
 const app = express();
 
-app.get("/*", (_, res) => {
-    res.send("Dockerfile worked v0.3");
-});
+app.use(express.static('public_html'));
 
 app.listen(80, () => { console.log("server started"); });

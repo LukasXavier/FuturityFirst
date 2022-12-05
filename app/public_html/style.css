@@ -1,3 +1,7 @@
 h1 {
+<<<<<<< HEAD
     text-align: center;
+=======
+	text-align: center;
+>>>>>>> f69bcf6 (Changed server.js to use public_html instead of static text)
 }
